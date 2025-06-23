@@ -62,15 +62,15 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .contents {
+    align-self: flex-start;
     height: 100%;
 }
 
 .group {
-    max-height: 50svh;
+    max-height: 65svh;
 }
 
 .footer {
