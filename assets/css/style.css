@@ -5,7 +5,9 @@
    text-decoration: none;
 }
 body {
-  background-image: url("/assets/img/campus_bg.png");
+  background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+              url('/assets/img/campus_bg.png');
+  backdrop-filter: blur(2.3px);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -60,13 +62,15 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 
 .contents {
     height: 100%;
+}
 
+.group {
+    max-height: 50svh;
 }
 
 .footer {
