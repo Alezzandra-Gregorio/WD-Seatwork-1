@@ -23,7 +23,7 @@ body {
 .header {
    display: flex;
    align-items: center;
-   padding: 1rem 2rem;
+   padding: 0.5rem 1rem;
    justify-content: space-between;
    background-image: url("/assets/img/plain_bg.png");
    .left{
@@ -32,10 +32,10 @@ body {
        gap: 0.5rem;
    }
    .logo {
-       max-width: 6rem;
+       max-width: 4rem;
    }
    .company-name {
-       font-size: 2rem;
+       font-size: 1.5rem;
        color: rgb(255, 255, 255);
    }
    .right{
@@ -45,9 +45,9 @@ body {
    .btn {
        color: rgb(0, 0, 0);
        background-color: rgb(255, 192, 75);
-       font-size:  1.3rem;
-       padding: 0.5rem 1rem;
-       border-radius: 5px;
+       font-size:  1rem;
+       padding: 0.3rem 0.7rem;
+       border-radius: 4px;
        box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
        transition-duration: 300ms;
 &:hover {
