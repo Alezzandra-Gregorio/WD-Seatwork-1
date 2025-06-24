@@ -85,14 +85,18 @@ body {
     background-color: rgb(27,30,40);
 
     .header_btn {
-        color: rgb(255, 255, 255);
+        color: rgb(255,228,198);
         font-size:  1rem;
         border-radius: 4px;
     }
 }
 
+.header_1 .header_name {
+    color: rgb(255,228,198);
+}
+
 .header_2 {
-    background-color: rebeccapurple;
+    background-color: rgb(56,18,18);
     padding: 1rem 0;
     position: relative;
 }
@@ -120,8 +124,12 @@ body {
     padding: 0 1 rem;
 }
 
+.header_2 .header_name {
+    color: rgb(255, 255, 255);
+}
+
 .header_3 {
-    background-color: rgb(40, 0, 60);
+    background-color: rgb(185,45,45)
 }
 
 .header3_layout {
@@ -145,16 +153,24 @@ body {
 }
 
 .header_3 .header_btn {
-    color: white;
+    color: rgb(208,171,120);
     font-size: 1rem;
     border-radius: 4px;
     padding: 0.3rem 0.6rem;
 }
 
+.header_3 .header_name {
+    color: rgb(208,171,120);
+}
+
 .header_4 {
-    background-color: rgb(0, 25, 50);
+    background-color: rgb(37,23,38);
     padding: 1rem 0;
     position: relative;
+}
+
+.header_4 .header_name {
+    color: rgb(181, 181, 181);
 }
 
 .header4_layout {
@@ -182,14 +198,14 @@ body {
 }
 
 .header_4 .header_btn {
-    color: white;
+    color: rgb(181, 181, 181);
     font-size: 1rem;
     border-radius: 4px;
     padding: 0.3rem 0.6rem;
 }
 
 .header_5 {
-    background-color: #002b3b;
+    background-color: rgb(33,37,46);
     padding: 1rem 0;
 }
 
@@ -227,6 +243,9 @@ body {
     justify-content: flex-end;
 }
 
+.header_5 .header_name {
+    color: rgb(194, 56, 176);
+}
 
 .header_center {
     position: absolute;
@@ -280,7 +299,6 @@ body {
 
 .header_name {
     font-size: 1.5rem;
-    color: white;
 }
 
 .contents {
