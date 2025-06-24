@@ -63,9 +63,15 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+Adding 5 footers and 5 headers in a page
 - Whats the purpose
+To learn how to create different kinds of footers and headers
 - What are key components
+Implementing header elements, footer elements, and layouts
 - What technology used and how it is used
+Using HTML for the structure of the header and footer and also defines sections
+It also uses CSS to style the elements.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -120,3 +126,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+https://ph.pinterest.com/pin/884112970636030456/
+http://ph.pinterest.com/pin/884112970636030439/
+https://ph.pinterest.com/pin/884112970636030430/
