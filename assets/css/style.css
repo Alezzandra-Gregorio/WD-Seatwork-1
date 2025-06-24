@@ -154,6 +154,7 @@ body {
 .header_4 {
     background-color: rgb(0, 25, 50);
     padding: 1rem 0;
+    position: relative;
 }
 
 .header4_layout {
@@ -163,6 +164,7 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 0 1rem;
+    position: relative;
 }
 
 .header4_left, .header4_right {
@@ -171,9 +173,12 @@ body {
 }
 
 .header4_center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 0.5rem;
 }
 
 .header_4 .header_btn {
@@ -181,6 +186,45 @@ body {
     font-size: 1rem;
     border-radius: 4px;
     padding: 0.3rem 0.6rem;
+}
+
+.header_5 {
+    background-color: #002b3b;
+    padding: 1rem 0;
+}
+
+.header5_layout {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.header5_left {
+    position: absolute;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header5_center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header5_center .nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.header5_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
