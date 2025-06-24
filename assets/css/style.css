@@ -1,15 +1,15 @@
 *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 body {
-  background: linear-gradient(to left, rgba(248, 247, 247, 0.47), rgba(0, 0, 0, 0)),
-              url('/assets/img/twst_staff.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+    background: linear-gradient(to left, rgba(248, 247, 247, 0.628), rgba(0, 0, 0, 0)),
+                url('/assets/img/twst_staff.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .body {
@@ -20,40 +20,40 @@ body {
 }
 
 .header {
-   display: flex;
-   align-items: center;
-   padding: 0.5rem 1rem;
-   justify-content: space-between;
-   background-color: rgb(195,142,195);
-   .left{
-       align-items: center;
-       display: flex;
-       gap: 1rem;
-   }
-   .logo {
-       max-width: 3rem;
-   }
-   .company-name {
-       font-size: 1.5rem;
-       color: black
-   }
-   .right{
-       display: flex;
-       gap: 0.7rem;
-   }
-   .btn {
-       color: rgb(255, 255, 255);
-       background-color: rgb(0, 0, 0);
-       font-size:  1rem;
-       padding: 0.3rem 0.7rem;
-       border-radius: 4px;
-       box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
-       transition-duration: 300ms;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    background-color: rgb(195,142,195);
+    .left{
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+    }
+    .logo {
+        max-width: 3rem;
+    }
+    .company-name {
+        font-size: 1.5rem;
+        color: black
+    }
+    .right{
+        display: flex;
+        gap: 0.7rem;
+    }
+    .btn {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        font-size:  1rem;
+        padding: 0.3rem 0.7rem;
+        border-radius: 4px;
+        box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
+        transition-duration: 300ms;
 &:hover {
-           transform: translateX(2.6px) translateY(5.1px);
-           box-shadow: 0 0 0 hsl(deg 0% 0% / 0.42);
-       }
-   }
+            transform: translateX(2.6px) translateY(5.1px);
+            box-shadow: 0 0 0 hsl(deg 0% 0% / 0.42);
+        }
+    }
 }
 
 .hero {
