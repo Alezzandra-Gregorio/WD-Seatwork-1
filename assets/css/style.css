@@ -386,6 +386,42 @@ body {
     height: auto;
 }
 
+.footer_4 {
+    background-color: #000000;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer4_content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer4_nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.footer4_nav a {
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer4_nav a:hover {
+    color: #ccc;
+}
+
+.footer_4 p {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
 
 .footer_logo {
     max-width: 4rem;
@@ -396,6 +432,24 @@ body {
     font-size: 0.9rem;
 }
 
+.footer_5 {
+    background-color: #000;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer5_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer5_logo {
+    width: 60px;
+}
 
 .main_footer {
     padding: 0 1rem;
