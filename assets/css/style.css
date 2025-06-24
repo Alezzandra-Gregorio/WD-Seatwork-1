@@ -69,22 +69,34 @@ body {
     align-items: flex-end;
 }
 
-.section-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: right;
+.header_1 {
+    background-color: rgb(27,30,40);
+
+    .header_btn {
+        color: rgb(255, 255, 255);
+        font-size:  1rem;
+        border-radius: 4px;
+    }
+}
+
+.header_2 {
+    background-color: rebeccapurple;
 }
 
 .header_logo {
-    max-width: 5rem;
+    max-width: 4.5rem;
+}
+
+.header_name {
+    font-size: 1.2rem;
+    color: white;
 }
 
 .contents {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
 }
 
@@ -95,7 +107,6 @@ body {
 }
 
 .nav a {
-    color: rgb(119, 0, 0);
     font-size: 0.9rem;
 }
 
@@ -105,14 +116,6 @@ body {
     justify-content: space-between;
     padding: 15px;
     flex-wrap: wrap;
-}
-
-.section {
-    margin-bottom: 40px;
-    background:rgb(119, 0, 0);
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    overflow: hidden;
 }
 
 .footer {
