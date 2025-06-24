@@ -6,7 +6,7 @@
 }
 body {
     background: linear-gradient(to left, rgba(248, 247, 247, 0.628), rgba(0, 0, 0, 0)),
-                url('/assets/img/twst_staff.png');
+                url('assets/img/twst_staff.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
