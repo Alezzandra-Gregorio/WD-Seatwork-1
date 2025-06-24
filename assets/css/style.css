@@ -121,6 +121,37 @@ body {
     padding: 0 1 rem;
 }
 
+.header_3 {
+    background-color: rgb(40, 0, 60);
+}
+
+.header3_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.header3_left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.header3_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_3 .header_btn {
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+}
+
 .header_center {
     position: absolute;
     left: 50%;
